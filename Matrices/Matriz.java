@@ -3,8 +3,10 @@ public class Matriz
     private int[][] matriz;
     private boolean[][] matrizAux;
     Matriz(int orden){
-        matriz = new int[orden][orden];
-        matrizAux = new boolean[orden][orden];
+        if(orden > 0){
+            matriz = new int[orden][orden];
+            matrizAux = new boolean[orden][orden];
+        }
     }
     public void recorridoCaracol(){
         int i = 0;
