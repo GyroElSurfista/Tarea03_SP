@@ -1,3 +1,6 @@
+/*El programa lo hice con el objetivo de que se puedan ver unos cuantos ejemplos de como funciona mi implementacion y ademas
+no tenga que estar imprimiendo cada String que devuelven los metodos de la Clase Matriz.
+*/
 public class Programa
 {
     public static void main(String args[]){
